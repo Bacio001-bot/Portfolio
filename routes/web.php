@@ -1,6 +1,8 @@
 <?php
 
-use App\Http\Livewire\Pages\Main;
+use App\Http\Livewire\Pages\Home;
+use App\Http\Livewire\Pages\Favorites;
+use App\Http\Livewire\Pages\Liked;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', Main::class)->name('main');
+Route::get('/', Home::class)->name('home');
+Route::get('/favorites', Favorites::class)->name('favorites');
+Route::get('/liked', Liked::class)->name('liked');

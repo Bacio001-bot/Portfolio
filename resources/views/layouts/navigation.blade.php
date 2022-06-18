@@ -5,33 +5,29 @@
     </div>
     <div>
         <ul class="w-full grid gap-y-5 pr-5 -ml-3">
-            <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
-                <i class="fa-solid fa-house text-[1.6rem] text-gray-800"></i>
-                <h1 class="font-semibold text-[1.4rem] text-gray-500">Home</h1>
-            </li>
-            <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
-                <i class="fa-solid fa-hashtag text-[1.6rem] text-gray-800 "></i>
-                <h1 class="font-semibold text-[1.4rem] text-gray-500">Explore</h1>
-            </li>
-            <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
-                <i class="fa-solid fa-thumbs-up text-[1.6rem] text-gray-800"></i>
-                <h1 class="font-semibold text-[1.4rem] text-gray-500">Liked</h1>
-            </li>
-            <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
-                <i class="fa-solid fa-star text-[1.6rem] text-gray-800"></i>
-                <h1 class="font-semibold text-[1.4rem] text-gray-500">Favorites</h1>
-            </li>
+            <a href="{{route('home')}}">
+                <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
+                    <i class="fa-solid fa-house text-[1.6rem] text-gray-800"></i>
+                    <h1 class="font-semibold text-[1.4rem] text-gray-500">Home</h1>
+                </li>
+            </a>
+            <a href="{{route('liked')}}">
+                <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
+                    <i class="fa-solid fa-thumbs-up text-[1.6rem] text-gray-800"></i>
+                    <h1 class="font-semibold text-[1.4rem] text-gray-500">Liked</h1>
+                </li>
+            </a>
+            <a href="{{route('favorites')}}">
+                <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
+                    <i class="fa-solid fa-star text-[1.6rem] text-gray-800"></i>
+                    <h1 class="font-semibold text-[1.4rem] text-gray-500">Favorites</h1>
+                </li>
+            </a>
             <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
                 <i class="fa-solid fa-user text-[1.6rem] text-gray-800"></i>
                 <h1 class="font-semibold text-[1.4rem] text-gray-500">Profile</h1>
             </li>
         </ul>
-
-        <div class="w-full pr-5 mt-10">
-            <button class="bg-[#1D9BF0] hover:bg-[#178bd8]  p-2 rounded-3xl text-lg font-bold w-full text-white ">
-                Tweet
-            </button>
-        </div>
         
     </div>
 </div>

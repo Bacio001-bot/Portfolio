@@ -8,7 +8,7 @@ use App\Models\Tweet;
 use Livewire\Component;
 use App\Models\Favorite;
 
-class Main extends Component
+class Home extends Component
 {
 
     public $tweetText;
@@ -35,7 +35,7 @@ class Main extends Component
         }
         $this->dispatchBrowserEvent('renderEvent');
 
-        return view('livewire.pages.main', ['tweets' => $tweets])
+        return view('livewire.pages.home', ['tweets' => $tweets])
         ->extends('layouts.app')
         ->section('content');
 
