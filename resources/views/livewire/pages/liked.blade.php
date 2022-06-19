@@ -1,6 +1,6 @@
 <div class="w-full min-h-screen flex flex-auto h-screen">
     <div class="w-[37.5rem] border-x-2 overflow-y-auto custom-scrollbar" id="tweetDisplay">
-        <h1 class="p-4 text-xl font-semibold">Home</h1>
+        <h1 class="p-4 text-xl font-semibold">Liked</h1>
         <div class="px-4 pb-4 w-full border-b-2" >
 
         </div>

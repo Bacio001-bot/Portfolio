@@ -23,10 +23,7 @@
                     <h1 class="font-semibold text-[1.4rem] text-gray-500">Favorites</h1>
                 </li>
             </a>
-            <li class="text-xl cursor-pointer flex flex-auto gap-x-4 hover:bg-gray-100 p-3 rounded-full ">
-                <i class="fa-solid fa-user text-[1.6rem] text-gray-800"></i>
-                <h1 class="font-semibold text-[1.4rem] text-gray-500">Profile</h1>
-            </li>
+
         </ul>
         
     </div>
